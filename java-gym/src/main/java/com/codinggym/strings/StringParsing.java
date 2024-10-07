@@ -11,6 +11,8 @@ public class StringParsing {
         - Open brackets must be closed by the same type of brackets
         - Open brackets must be closed in the correct order
         - An empty string is also considered valid
+
+        Time complexity: O(n), iterate through the string once
      */
     boolean parenthesisAreValid(String s) {
 
